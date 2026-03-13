@@ -8,10 +8,10 @@ import (
 	"os"
 	"sync"
 
+	"github.com/easm-toolbox/gowitness/internal/islazy"
+	"github.com/easm-toolbox/gowitness/pkg/models"
+	"github.com/easm-toolbox/gowitness/pkg/writers"
 	wappalyzer "github.com/projectdiscovery/wappalyzergo"
-	"github.com/sensepost/gowitness/internal/islazy"
-	"github.com/sensepost/gowitness/pkg/models"
-	"github.com/sensepost/gowitness/pkg/writers"
 )
 
 // Runner is a runner that probes web targets using a driver

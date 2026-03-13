@@ -12,14 +12,14 @@ import (
 	"sync"
 	"time"
 
+	"github.com/easm-toolbox/gowitness/internal/islazy"
+	"github.com/easm-toolbox/gowitness/pkg/imagehash"
+	"github.com/easm-toolbox/gowitness/pkg/log"
+	"github.com/easm-toolbox/gowitness/pkg/models"
+	"github.com/easm-toolbox/gowitness/pkg/runner"
 	"github.com/go-rod/rod"
 	"github.com/go-rod/rod/lib/launcher"
 	"github.com/go-rod/rod/lib/proto"
-	"github.com/sensepost/gowitness/internal/islazy"
-	"github.com/sensepost/gowitness/pkg/imagehash"
-	"github.com/sensepost/gowitness/pkg/log"
-	"github.com/sensepost/gowitness/pkg/models"
-	"github.com/sensepost/gowitness/pkg/runner"
 	"github.com/ysmood/gson"
 )
 

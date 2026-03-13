@@ -4,11 +4,11 @@ import (
 	"errors"
 	"log/slog"
 
-	"github.com/sensepost/gowitness/internal/ascii"
-	"github.com/sensepost/gowitness/pkg/log"
-	"github.com/sensepost/gowitness/pkg/runner"
-	driver "github.com/sensepost/gowitness/pkg/runner/drivers"
-	"github.com/sensepost/gowitness/pkg/writers"
+	"github.com/easm-toolbox/gowitness/internal/ascii"
+	"github.com/easm-toolbox/gowitness/pkg/log"
+	"github.com/easm-toolbox/gowitness/pkg/runner"
+	driver "github.com/easm-toolbox/gowitness/pkg/runner/drivers"
+	"github.com/easm-toolbox/gowitness/pkg/writers"
 	"github.com/spf13/cobra"
 )
 

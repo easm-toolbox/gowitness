@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/easm-toolbox/gowitness/internal/ascii"
+	"github.com/easm-toolbox/gowitness/pkg/log"
+	"github.com/easm-toolbox/gowitness/pkg/models"
+	"github.com/easm-toolbox/gowitness/pkg/models/oldv2"
+	"github.com/easm-toolbox/gowitness/pkg/writers"
 	"github.com/glebarez/sqlite"
-	"github.com/sensepost/gowitness/internal/ascii"
-	"github.com/sensepost/gowitness/pkg/log"
-	"github.com/sensepost/gowitness/pkg/models"
-	"github.com/sensepost/gowitness/pkg/models/oldv2"
-	"github.com/sensepost/gowitness/pkg/writers"
 	"github.com/spf13/cobra"
 	"gorm.io/gorm"
 )

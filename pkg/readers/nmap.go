@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
+	"github.com/easm-toolbox/gowitness/internal/islazy"
 	"github.com/lair-framework/go-nmap"
-	"github.com/sensepost/gowitness/internal/islazy"
 )
 
 // NmapReader is an Nmap results reader

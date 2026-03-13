@@ -9,9 +9,9 @@ import (
 	"runtime/trace"
 	"time"
 
-	"github.com/sensepost/gowitness/internal/ascii"
-	"github.com/sensepost/gowitness/pkg/log"
-	"github.com/sensepost/gowitness/pkg/runner"
+	"github.com/easm-toolbox/gowitness/internal/ascii"
+	"github.com/easm-toolbox/gowitness/pkg/log"
+	"github.com/easm-toolbox/gowitness/pkg/runner"
 	"github.com/spf13/cobra"
 )
 

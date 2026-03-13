@@ -6,8 +6,8 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/sensepost/gowitness/internal/islazy"
-	"github.com/sensepost/gowitness/pkg/models"
+	"github.com/easm-toolbox/gowitness/internal/islazy"
+	"github.com/easm-toolbox/gowitness/pkg/models"
 )
 
 // fields in the main model to ignore

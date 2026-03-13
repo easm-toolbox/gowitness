@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/sensepost/gowitness/pkg/log"
-	"github.com/sensepost/gowitness/pkg/models"
+	"github.com/easm-toolbox/gowitness/pkg/log"
+	"github.com/easm-toolbox/gowitness/pkg/models"
 )
 
 type technologyListResponse struct {

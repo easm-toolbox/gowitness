@@ -1,4 +1,4 @@
-module github.com/sensepost/gowitness
+module github.com/easm-toolbox/gowitness
 
 go 1.25
 

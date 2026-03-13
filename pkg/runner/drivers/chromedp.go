@@ -22,10 +22,10 @@ import (
 	"github.com/chromedp/cdproto/storage"
 	targetproto "github.com/chromedp/cdproto/target"
 	"github.com/chromedp/chromedp"
-	"github.com/sensepost/gowitness/internal/islazy"
-	"github.com/sensepost/gowitness/pkg/imagehash"
-	"github.com/sensepost/gowitness/pkg/models"
-	"github.com/sensepost/gowitness/pkg/runner"
+	"github.com/easm-toolbox/gowitness/internal/islazy"
+	"github.com/easm-toolbox/gowitness/pkg/imagehash"
+	"github.com/easm-toolbox/gowitness/pkg/models"
+	"github.com/easm-toolbox/gowitness/pkg/runner"
 )
 
 // Chromedp is a driver that probes web targets using chromedp

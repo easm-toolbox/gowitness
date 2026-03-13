@@ -3,10 +3,10 @@ package cmd
 import (
 	"errors"
 
-	"github.com/sensepost/gowitness/internal/ascii"
-	"github.com/sensepost/gowitness/internal/islazy"
-	"github.com/sensepost/gowitness/pkg/log"
-	"github.com/sensepost/gowitness/pkg/readers"
+	"github.com/easm-toolbox/gowitness/internal/ascii"
+	"github.com/easm-toolbox/gowitness/internal/islazy"
+	"github.com/easm-toolbox/gowitness/pkg/log"
+	"github.com/easm-toolbox/gowitness/pkg/readers"
 	"github.com/spf13/cobra"
 )
 
